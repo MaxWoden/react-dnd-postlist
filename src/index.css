@@ -1,3 +1,19 @@
+html,body{
+  width: 100vh;
+  height: 100vh;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+    outline: none;
+    border: none;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +26,113 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.home{
+  background: #111;
+  height: 100vh;
+  height: 100%;
+  width: 100vw;
+}
+
+.home_form{
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  width: 100%;
+}
+
+.home_form__input{
+  border: 2px solid gray;
+  border-radius: 25px;
+  flex-grow: 1;
+  font-size: 18px;
+  color: white;
+  padding: 10px 15px;
+  background: #111;
+}
+
+.home_form__input::placeholder{
+  color: gray;
+}
+
+.home_form__input:hover{
+  border-color: orange
+}
+
+.home_form__input:focus{
+  border-color: orange;
+}
+
+.home_form__input:focus::placeholder{
+  color: orange;
+}
+
+.home_form__btn{
+border-radius: 25px;
+  color: white;
+  padding: 10px 30px;
+  font: 600 18px sans-serif;
+}
+
+.home_form__btn-create-post:hover{
+  background: rgb(211, 137, 0)
+}
+
+.home_form__btn-delete-all:hover{
+  background: rgb(215, 0, 0)
+}
+
+.home_form__btn-create-post{
+  background: orange;
+}
+
+.home_form__btn-delete-all{
+  background: red;
+}
+
+.list{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.list_item{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 2px dashed orange;
+  cursor: grab;
+  gap: 20px;
+}
+
+.list_item__content{
+  color: white;
+  flex-grow: 1;
+  background: #111;
+  cursor: grab;
+  font-size: 18px;
+}
+
+.list_item__btn{
+  font-weight: 700;
+  background: #111;
+  font-size: 18px;
+}
+
+.list_item__btn-red{
+  color: red;
+}
+
+.list_item__btn-orange{
+  color: orange;
+}
+
+.list_title{
+  text-align: center;
+  font-size: 28px;
+  color: orange;
+  font-weight: 700;
 }
