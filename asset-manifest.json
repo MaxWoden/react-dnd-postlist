@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-dnd-postlist/static/css/main.a11b3954.css",
+    "main.js": "/react-dnd-postlist/static/js/main.ae7e1e59.js",
+    "static/js/453.4bf5f7d7.chunk.js": "/react-dnd-postlist/static/js/453.4bf5f7d7.chunk.js",
+    "index.html": "/react-dnd-postlist/index.html",
+    "main.a11b3954.css.map": "/react-dnd-postlist/static/css/main.a11b3954.css.map",
+    "main.ae7e1e59.js.map": "/react-dnd-postlist/static/js/main.ae7e1e59.js.map",
+    "453.4bf5f7d7.chunk.js.map": "/react-dnd-postlist/static/js/453.4bf5f7d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a11b3954.css",
+    "static/js/main.ae7e1e59.js"
+  ]
+}
